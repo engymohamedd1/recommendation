@@ -1,0 +1,5 @@
+downloaded_images
+images
+.venv
+embeddings.pkl
+filenames.pkl
