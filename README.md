@@ -1,6 +1,9 @@
-Example request
+# Example Request
+
 curl -X POST -F "file=@C:\Users\Dell\PycharmProjects\pythonProject\downloaded_images\image_16.jpg" http://localhost:5000/recommend
-Response:
+
+# Response:
+```
 {
   "recommendations": [
     "downloaded_images\\image_16.jpg",
@@ -11,5 +14,7 @@ Response:
     "downloaded_images\\image_12.jpg"
   ]
 }
-How to run this project 
+```
+
+# How to run this project 
 python main.py
